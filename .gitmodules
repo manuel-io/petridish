@@ -1,0 +1,15 @@
+[submodule "gists/talks"]
+	path = gists/talks
+	url = git@gist.github.com:d16a863a8e2143246731.git
+[submodule "gists/iptables"]
+	path = gists/iptables
+	url = git@gist.github.com:daf0d216dd4fb7fa75b8.git
+[submodule "gists/udev-rules"]
+	path = gists/udev-rules
+	url = git@gist.github.com:c871f55159a1ac2d1622.git
+[submodule "gists/haskell-io"]
+	path = gists/haskell-io
+	url = git@gist.github.com:d980c1bd48eb68ec2161.git
+[submodule "gists/medion-umts"]
+	path = gists/medion-umts
+	url = git@gist.github.com:ac5ad5717f0f1986c5b5.git
