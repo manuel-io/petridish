@@ -1,0 +1,4 @@
+*.o
+*.elf
+integrator/kernel
+vorbis2alsa/vorbis2alsa

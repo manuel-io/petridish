@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:2
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=50880,CODECS="mp4a.40.5"
+http://as-hls-ww-live.bbcfmt.vo.llnwd.net/pool_6/live/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d48000.norewind.m3u8
