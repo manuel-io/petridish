@@ -120,17 +120,19 @@ $interactive && [ -f $small ] && {
     exit
   }
 }
-#    -vf scale=720:416
+
 [ -f $small ] || {
   mencoder $file \
     $subid \
+    -aid $aid \
     -ovc xvid \
     -xvidencopts "bvhq=1:chroma_opt:quant_type=mpeg:bitrate=${bitrate}" \
-    -alang $lang -oac mp3lame \
+    -oac mp3lame \
     -lameopts "br=${audiorate}:cbr:vol=${volume}" \
+    -force-avi-aspect 1.777777 \
     -ss 600 \
     -endpos 60 \
-    -aid $aid \
+    -of avi \
     -o $small
 }
 
@@ -146,10 +148,12 @@ $interactive && [ -f $outfile ] && {
 [ -f $outfile ] || {
   mencoder $file \
     $subid \
+    -aid $aid \
     -ovc xvid \
     -xvidencopts "bvhq=1:chroma_opt:quant_type=mpeg:bitrate=${bitrate}" \
-    -alang $lang -oac mp3lame \
+    -oac mp3lame \
     -lameopts "br=${audiorate}:cbr:vol=${volume}" \
-    -aid $aid \
+    -force-avi-aspect 1.777777 \
+    -of avi \
     -o $outfile
 }
