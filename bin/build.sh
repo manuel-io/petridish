@@ -3,7 +3,7 @@
 # dd if=/dev/urandom of=disk.img bs=1024 count=1048576
 # losetup /dev/loop0 disk.img
 
-user = manuel
+user = 
 device = /dev/sda
 puts "Hello"
 exit
