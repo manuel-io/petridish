@@ -1,5 +1,5 @@
-firefox = "firefox-57.0.1.tar.bz2"
-release = "57.0.1"
+firefox = "firefox-57.0.4.tar.bz2"
+release = "57.0.4"
 
 install:
 	test -f "${firefox}" || curl -O "https://download-installer.cdn.mozilla.net/pub/firefox/releases/${release}/linux-x86_64/en-US/${firefox}"
