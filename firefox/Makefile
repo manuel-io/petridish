@@ -1,5 +1,5 @@
-firefox = "firefox-57.0.4.tar.bz2"
-release = "57.0.4"
+release = "58.0.1"
+firefox = "firefox-${release}.tar.bz2"
 
 install:
 	test -f "${firefox}" || curl -O "https://download-installer.cdn.mozilla.net/pub/firefox/releases/${release}/linux-x86_64/en-US/${firefox}"
@@ -13,7 +13,7 @@ install:
 		&& cp Makefile.draft "firefox-quantum-${release}/Makefile" \
 	  && cd "firefox-quantum-${release}" \
 	  && dh_make --createorig \
-	  && debuild -i -us -uc -b
+	  && DEB_BUILD_OPTIONS='nostrip' debuild -i -us -uc -b
 
 clean:
 	rm -rf "firefox-quantum-${release}"

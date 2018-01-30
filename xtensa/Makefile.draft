@@ -1,0 +1,6 @@
+DESTDIR=$(CURDIR)/debian/xtensa-lx106
+release = 0.6
+
+install:
+	mkdir -p $(DESTDIR)/opt/
+	tar -C $(DESTDIR)/opt/ -xvf "../xtensa-lx106-${release}.tar"
