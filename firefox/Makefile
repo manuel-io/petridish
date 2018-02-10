@@ -1,4 +1,4 @@
-release = "58.0.1"
+release = "58.0.2"
 firefox = "firefox-${release}.tar.bz2"
 
 install:
