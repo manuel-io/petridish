@@ -1,4 +1,4 @@
-release = "59.0"
+release = "59.0.1"
 firefox = "firefox-${release}.tar.bz2"
 
 install:
@@ -13,7 +13,7 @@ install:
 		&& cp Makefile.draft "firefox-quantum-${release}/Makefile" \
 	  && cd "firefox-quantum-${release}" \
 	  && dh_make --createorig \
-	  && DEB_BUILD_OPTIONS='nostrip' debuild -i -us -uc -b
+	  && DEB_BUILD_OPTIONS='nocheck nodoc noopt nostrip' debuild -i -us -uc -b
 
 clean:
 	rm -rf "firefox-quantum-${release}"
