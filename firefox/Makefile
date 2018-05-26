@@ -1,4 +1,4 @@
-release = "59.0.1"
+release = "60.0.1"
 firefox = "firefox-${release}.tar.bz2"
 
 install:
@@ -16,7 +16,7 @@ install:
 	  && DEB_BUILD_OPTIONS='nocheck nodoc noopt nostrip' debuild -i -us -uc -b
 
 clean:
-	rm -rf "firefox-quantum-${release}"
-	rm -f "firefox-quantum_${release}.orig.tar.xz"
+	find -name 'firefox-quantum-*' -type d -exec rm -rf {} \;
+	find -name 'firefox-quantum_*.orig.tar.xz' -type f -exec rm -f {} \;
 	rm -f *.build *.buildinfo *.changes *.deb
 	rm -f SHA256SUMS
