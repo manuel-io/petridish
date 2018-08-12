@@ -1,25 +1,32 @@
 #EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=184000,RESOLUTION=320x180,CODECS="avc1.66.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_184_av-p.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=184000,RESOLUTION=320x180,CODECS="avc1.66.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_184_av-b.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=320000,RESOLUTION=480x270,CODECS="avc1.66.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_320_av-p.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=320000,RESOLUTION=480x270,CODECS="avc1.66.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_320_av-b.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=608000,RESOLUTION=512x288,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_608_av-p.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=608000,RESOLUTION=512x288,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_608_av-b.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1216000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_1216_av-p.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1216000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_1216_av-b.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1992000,RESOLUTION=960x540,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_1992_av-p.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1992000,RESOLUTION=960x540,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_1992_av-b.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2691000,RESOLUTION=960x540,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_2692_av-p.m3u8?sd=10&rebase=on&id=
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2691000,RESOLUTION=960x540,CODECS="avc1.77.30, mp4a.40.2"
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/index_2692_av-b.m3u8?sd=10&rebase=on&id=
+
+
+#EXT-X-STREAM-INF:CODECS="avc1.42c029,mp4a.40.2",BANDWIDTH=365773,AVERAGE-BANDWIDTH=327373
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_1.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.42c029,mp4a.40.2",BANDWIDTH=365773,AVERAGE-BANDWIDTH=327373
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_1.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.42c029,mp4a.40.2",BANDWIDTH=534956,AVERAGE-BANDWIDTH=458156
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_2.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.42c029,mp4a.40.2",BANDWIDTH=534956,AVERAGE-BANDWIDTH=458156
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_2.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4029,mp4a.40.2",BANDWIDTH=873321,AVERAGE-BANDWIDTH=719721
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_3.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4029,mp4a.40.2",BANDWIDTH=873321,AVERAGE-BANDWIDTH=719721
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_3.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4029,mp4a.40.2",BANDWIDTH=1550052,AVERAGE-BANDWIDTH=1242852
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_4.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4029,mp4a.40.2",BANDWIDTH=1550052,AVERAGE-BANDWIDTH=1242852
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_4.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4029,mp4a.40.2",BANDWIDTH=2575721,AVERAGE-BANDWIDTH=2035721
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_5.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4029,mp4a.40.2",BANDWIDTH=2575721,AVERAGE-BANDWIDTH=2035721
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_5.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.640029,mp4a.40.2",BANDWIDTH=3500939,AVERAGE-BANDWIDTH=2750939
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_6.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.640029,mp4a.40.2",BANDWIDTH=3500939,AVERAGE-BANDWIDTH=2750939
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_6.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.640029,mp4a.40.2",BANDWIDTH=4933704,AVERAGE-BANDWIDTH=3858504
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/05b7ec447669d2a128401702175b20db/index_7.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.640029,mp4a.40.2",BANDWIDTH=4933704,AVERAGE-BANDWIDTH=3858504
+https://derste247livede.akamaized.net/hls/live/658317-b/daserste_de/05b7ec447669d2a128401702175b20db/index_7.m3u8
+

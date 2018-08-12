@@ -5,12 +5,12 @@ ERROR=/dev/stderr
 USER="worker"
 ID=1300
 
+mkdir /home/$USER
 groupadd -g $ID $USER
 useradd --uid $ID --gid $ID -s $SHELL -d /home/$USER $USER
 
 lvcreate -l 100%FREE -n $USER users
 mkfs.ext4 /dev/mapper/users-$USER
-mkdir /home/$USER
 mount /dev/mapper/users-$USER /home/$USER/
 chown -R $USER:$USER /home/$USER/
 
