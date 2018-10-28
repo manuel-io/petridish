@@ -1,5 +1,5 @@
 DESTDIR=$(CURDIR)/debian/firefox-quantum
-firefox = "firefox-61.0.2.tar.bz2"
+firefox = "firefox-63.0.tar.bz2"
 
 install:
 	mkdir -p $(DESTDIR)/opt/
